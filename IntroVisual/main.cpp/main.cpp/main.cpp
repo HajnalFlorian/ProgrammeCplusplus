@@ -14,8 +14,10 @@ using namespace std; //si retirer cin et cout ne fonctionne plus
 int main()
 {
 	CPoint ptMonPoint;
+	//CPoint ptMonPoint2(10,95);
+	/*ptMonPoint.init(0,0);
 	ptMonPoint.setX(0);
-	ptMonPoint.setY(0);
+	ptMonPoint.setY(0);*/
 	cout << "X : " << ptMonPoint.getX()<< endl;
 	cout << "Y : " << ptMonPoint.getY()<< endl;
 
